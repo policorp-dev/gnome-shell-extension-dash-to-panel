@@ -1,0 +1,13 @@
+Index: gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+===================================================================
+--- gnome-shell-extension-dash-to-panel.orig/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
++++ gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+@@ -254,7 +254,7 @@
+       <description>Custom background color for the panel</description>
+     </key>
+     <key type="b" name="trans-use-custom-opacity">
+-      <default>false</default>
++      <default>true</default>
+       <summary>Custom background color</summary>
+       <description>Replace current theme background color for the panel</description>
+     </key>
