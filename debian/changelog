@@ -1,3 +1,9 @@
+gnome-shell-extension-dash-to-panel (64.Policorp-1) stable; urgency=medium
+
+  * add versao Policorp
+
+ -- Lucas Salles <lucas.salles@policorp.com.br>  Fri, 17 Jan 2025 11:23:38 -0300
+
 gnome-shell-extension-dash-to-panel (64-1) unstable; urgency=medium
 
   * New upstream release
