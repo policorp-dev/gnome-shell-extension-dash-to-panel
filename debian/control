@@ -1,0 +1,22 @@
+Source: gnome-shell-extension-dash-to-panel
+Section: gnome
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jonathan Carter <jcc@debian.org>
+Build-Depends: debhelper-compat (= 13), libglib2.0-bin
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://github.com/jderose9/dash-to-panel
+Vcs-Git: https://salsa.debian.org/gnome-team/shell-extensions/gnome-shell-extension-dash-to-panel.git
+Vcs-Browser: https://salsa.debian.org/gnome-team/shell-extensions/gnome-shell-extension-dash-to-panel
+
+Package: gnome-shell-extension-dash-to-panel
+Architecture: all
+Depends: ${misc:Depends}, gnome-shell (>= 46~), gnome-shell (<< 48~), gnome-shell-extension-prefs
+Description: combines the dash and the GNOME main panel into a single panel
+ Moves the dash into the GNOME main panel so that the application launchers
+ and system tray are combined into a single panel, similar to that found
+ in KDE Plasma and Windows 7+.
+ .
+ A separate dock is no longer needed for easy access to running and
+ favorited applications.

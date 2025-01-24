@@ -1,0 +1,349 @@
+gnome-shell-extension-dash-to-panel (64.Policorp-1) stable; urgency=medium
+
+  * add versao Policorp
+
+ -- Lucas Salles <lucas.salles@policorp.com.br>  Fri, 17 Jan 2025 11:23:38 -0300
+
+gnome-shell-extension-dash-to-panel (64-1) unstable; urgency=medium
+
+  * New upstream release
+  * Clean up translations on dh_clean (Closes: #1044482)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 13 Nov 2024 08:41:55 +0200
+
+gnome-shell-extension-dash-to-panel (63-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #1079241)
+  * Update gnome-shell dependency to include version 47
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 07 Oct 2024 12:11:51 +0200
+
+gnome-shell-extension-dash-to-panel (62-1) unstable; urgency=high
+
+  * Team upload
+  * Update minimum GNOME Shell version to match metadata.json
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 15 Jul 2024 08:11:56 -0400
+
+gnome-shell-extension-dash-to-panel (62-1~exp1) experimental; urgency=medium
+
+  * New upstream release (Closes: #1069113)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 23 Apr 2024 14:48:39 +0200
+
+gnome-shell-extension-dash-to-panel (60-1~exp2) experimental; urgency=medium
+
+  * Upload to experimental
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 30 Mar 2024 10:24:01 +0200
+
+gnome-shell-extension-dash-to-panel (60-1~exp1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 24 Jan 2024 14:49:30 +0200
+
+gnome-shell-extension-dash-to-panel (59-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release (Closes: #1052092)
+  * Bump minimum GNOME Shell to 45 to match metadata.json
+  * Add debian/gbp.conf
+  * Drop no longer needed Build-Depends: zip
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 24 Sep 2023 13:37:34 -0400
+
+gnome-shell-extension-dash-to-panel (56-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.6.2
+  * Update gnome-shell dependency to (<< 45~)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 19 Jun 2023 11:12:52 +0200
+
+gnome-shell-extension-dash-to-panel (52-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 18 Oct 2022 15:49:37 +0200
+
+gnome-shell-extension-dash-to-panel (51-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jesús Soto ]
+  * New upstream release (Closes: #1018194)
+
+  [ Jeremy Bicha ]
+  * debian/control: Set maximum gnome-shell to 43
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 21 Sep 2022 14:47:05 -0400
+
+gnome-shell-extension-dash-to-panel (50-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 03 May 2022 13:29:59 +0200
+
+gnome-shell-extension-dash-to-panel (49-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 25 Apr 2022 12:59:06 +0200
+
+gnome-shell-extension-dash-to-panel (48-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 20 Apr 2022 19:27:34 +0200
+
+gnome-shell-extension-dash-to-panel (46-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #1008538)
+  * Bump minimal gnome-shell dependency to version 41
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 11 Apr 2022 09:26:07 +0200
+
+gnome-shell-extension-dash-to-panel (45-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add copyright entry for new translation (po/sk.po)
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 02 Dec 2021 10:12:12 +0200
+
+gnome-shell-extension-dash-to-panel (43+git20210906-b7213be-2) unstable; urgency=medium
+
+  * Merge changes from previous git commit
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 20 Oct 2021 10:21:08 +0200
+
+gnome-shell-extension-dash-to-panel (43+git20210906-b7213be-1) unstable; urgency=medium
+
+  * New upstream snapshot (Closes: #996049)
+  * Fix standards version, set to 4.6.0
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 20 Oct 2021 10:09:02 +0200
+
+gnome-shell-extension-dash-to-panel (43-2) unstable; urgency=medium
+
+  * GNOME Team upload for GNOME 40 transition
+  * Require gnome-shell >= 40 (Closes: #993887)
+
+ -- Simon McVittie <smcv@debian.org>  Sun, 12 Sep 2021 18:32:25 +0100
+
+gnome-shell-extension-dash-to-panel (43-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + gnome-shell-extension-dash-to-panel: Drop versioned constraint on
+      gnome-shell in Depends.
+
+  [ Jonathan Carter ]
+  * New upstream release (Closes: #989546, #993058)
+  * Update standards version to 4.6.1
+  * Update copyright years
+  * Fix watch file
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 02 Sep 2021 17:02:29 +0200
+
+gnome-shell-extension-dash-to-panel (40-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #971087)
+  * Update copyright file for new file po/gl.po
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 09 Oct 2020 14:37:14 +0200
+
+gnome-shell-extension-dash-to-panel (39-1) unstable; urgency=medium
+
+  * New upstream release
+  * Remove patch (no longer needed)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 07 Sep 2020 23:08:40 +0200
+
+gnome-shell-extension-dash-to-panel (38-2) unstable; urgency=medium
+
+  * Apply patch to fix overview bug (Closes: #968613)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 19 Aug 2020 11:51:57 +0200
+
+gnome-shell-extension-dash-to-panel (38-1) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Jonathan Carter ]
+  * New upstream release
+  * Upgrade to debhelper-compat 13
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 15 Jul 2020 12:22:06 +0200
+
+gnome-shell-extension-dash-to-panel (37-2) unstable; urgency=medium
+
+  * Add dependency on gnome-shell-extension-prefs.
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 27 Apr 2020 17:43:31 +0200
+
+gnome-shell-extension-dash-to-panel (37-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #956162, #954978)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 27 Apr 2020 17:32:49 +0200
+
+gnome-shell-extension-dash-to-panel (31-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 28 Mar 2020 10:30:38 +0200
+
+gnome-shell-extension-dash-to-panel (29-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.5.0
+  * Declare Rules-Requires-Root: no
+  * Update copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 10 Mar 2020 15:05:26 +0200
+
+gnome-shell-extension-dash-to-panel (26-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 18 Nov 2019 15:16:26 +0200
+
+gnome-shell-extension-dash-to-panel (25-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.4.1
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 28 Oct 2019 20:13:40 +0200
+
+gnome-shell-extension-dash-to-panel (23-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 09 Sep 2019 12:43:58 +0000
+
+gnome-shell-extension-dash-to-panel (21-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 19 Aug 2019 12:49:01 +0000
+
+gnome-shell-extension-dash-to-panel (20-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright:
+    - add copyright for Taiwanese translation
+    - update Russian translation path
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 01 Aug 2019 09:56:14 +0000
+
+gnome-shell-extension-dash-to-panel (19-2) unstable; urgency=medium
+
+  * Initial source-only upload
+  * Update standards version to 4.4.0
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 09 Jul 2019 09:49:46 +0000
+
+gnome-shell-extension-dash-to-panel (19-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix typo in previous changelog entry
+  * Upgrade to debhelper-compat (= 12)
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 14 Mar 2019 13:16:18 +0000
+
+gnome-shell-extension-dash-to-panel (18-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 16 Jan 2019 08:23:58 +0200
+
+gnome-shell-extension-dash-to-panel (17-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add new translation copyright information to debian/copyright
+  * Update standards version to 4.3.0
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 04 Jan 2019 18:40:54 +0200
+
+gnome-shell-extension-dash-to-panel (16-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #905110)
+  * Update standards version to 4.2.1
+  * Move git repository to shell-extensions team
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 10 Sep 2018 10:04:40 +0200
+
+gnome-shell-extension-dash-to-panel (15-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 25 Jun 2018 12:02:12 +0200
+
+gnome-shell-extension-dash-to-panel (14-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update watch file to new upstream location
+  * Update standards version to 4.1.4
+  * Update copyright for translations
+  * Install dcong schemas system-wide
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 23 May 2018 09:49:11 +0200
+
+gnome-shell-extension-dash-to-panel (13-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 08 Mar 2018 14:31:14 +0200
+
+gnome-shell-extension-dash-to-panel (12-2) unstable; urgency=medium
+
+  * Fix watch file
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 06 Mar 2018 10:48:21 +0200
+
+gnome-shell-extension-dash-to-panel (12-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix watch file
+  * Update compat to level 11
+  * Update standards version to 4.1.3
+  * Update copyright years, russian translation renaming
+  * Move vcs repository to salsa.debian.org
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 20 Feb 2018 10:25:37 +0200
+
+gnome-shell-extension-dash-to-panel (11-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 23 Oct 2017 08:58:34 +0200
+
+gnome-shell-extension-dash-to-panel (10-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright:
+    - Add copyright information for new Russian translations
+  * debian/control:
+    - Update maintainer e-mail address
+    - Update standards version to 4.1.1 (no related changes)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 18 Oct 2017 09:50:03 +0200
+
+gnome-shell-extension-dash-to-panel (9-2) unstable; urgency=medium
+
+  * Fix Dcs-git field in debian/control
+  * Update standards version to 4.0.1 (no changes)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 11 Aug 2017 12:38:11 -0400
+
+gnome-shell-extension-dash-to-panel (9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #852164)
+
+ -- Jonathan Carter <jcarter@linux.com>  Wed, 12 Jul 2017 13:51:06 +0200
