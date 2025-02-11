@@ -1,0 +1,13 @@
+Index: gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+===================================================================
+--- gnome-shell-extension-dash-to-panel.orig/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
++++ gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+@@ -559,7 +559,7 @@
+       <description>Close overview or app grid by clicking in empty space</description>
+     </key>
+     <key type="b" name="hide-overview-on-startup">
+-      <default>false</default>
++      <default>true</default>
+       <summary>Hide overview on startup</summary>
+       <description>Hide overview on startup, which would be shown by default at gnome startup.</description>
+     </key>
