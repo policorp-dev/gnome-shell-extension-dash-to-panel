@@ -12,7 +12,7 @@ Vcs-Browser: https://salsa.debian.org/gnome-team/shell-extensions/gnome-shell-ex
 
 Package: gnome-shell-extension-dash-to-panel
 Architecture: all
-Depends: ${misc:Depends}, gnome-shell (>= 46~), gnome-shell (<< 48~), gnome-shell-extension-prefs
+Depends: ${misc:Depends}, gnome-shell (>= 46~), gnome-shell (<< 49~), gnome-shell-extension-prefs
 Description: combines the dash and the GNOME main panel into a single panel
  Moves the dash into the GNOME main panel so that the application launchers
  and system tray are combined into a single panel, similar to that found
