@@ -1,3 +1,9 @@
+gnome-shell-extension-dash-to-panel (65.Policorp-3) stable; urgency=medium
+
+  * Updated translation in pt_BR
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Mon, 17 Mar 2025 11:04:43 -0300
+
 gnome-shell-extension-dash-to-panel (65.Policorp-2) stable; urgency=medium
 
   * updated version in policorp
