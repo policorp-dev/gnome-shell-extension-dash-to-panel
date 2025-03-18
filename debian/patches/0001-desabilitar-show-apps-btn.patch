@@ -1,7 +1,7 @@
 Index: oo/src/panelPositions.js
 ===================================================================
---- oo.orig/src/panelPositions.js
-+++ oo/src/panelPositions.js
+--- gnome-shell-extension-dash-to-panel.orig/src/panelPositions.js
++++ gnome-shell-extension-dash-to-panel/src/panelPositions.js
 @@ -40,7 +40,7 @@ export const MIDDLE = 'MIDDLE'
  export const END = 'END'
  
