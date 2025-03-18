@@ -634,3 +634,70 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  
  #: ui/SettingsStyle.ui.h:32
  #, no-c-format
+@@ -1498,40 +1438,40 @@ msgstr ""
+ msgid "Gradient bottom color and opacity (%)"
+ msgstr ""
+ 
+-#~ msgid "New Window"
+-#~ msgstr "Nova janela"
++msgid "New Window"
++msgstr "Nova janela"
+ 
+-#~ msgid "Show Details"
+-#~ msgstr "Exibir detalhes"
++msgid "Show Details"
++msgstr "Exibir detalhes"
+ 
+-#~ msgid "Top Bar"
+-#~ msgstr "Barra superior"
++msgid "Top Bar"
++msgstr "Barra superior"
+ 
+-#~ msgid "Move to current Workspace"
+-#~ msgstr "Mover ao espaço de trabalho atual"
++msgid "Move to current Workspace"
++msgstr "Mover ao espaço de trabalho atual"
+ 
+-#~ msgid "Natural"
+-#~ msgstr "Natural"
++msgid "Natural"
++msgstr "Natural"
+ 
+-#~ msgid "Style"
+-#~ msgstr "Estilo"
++msgid "Style"
++msgstr "Estilo"
+ 
+-#~ msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
+-#~ msgstr ""
+-#~ "Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
+-#~ "Ferramenta de ajustes do GNOME"
++msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
++msgstr ""
++"Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
++"Ferramenta de ajustes do GNOME"
+ 
+-#~ msgid "Behavior"
+-#~ msgstr "Comportamento"
++msgid "Behavior"
++msgstr "Comportamento"
+ 
+-#~ msgid "Action"
+-#~ msgstr "Ação"
++msgid "Action"
++msgstr "Ação"
+ 
+-#~ msgid "Fine-Tune"
+-#~ msgstr "Ajustes finos"
++msgid "Fine-Tune"
++msgstr "Ajustes finos"
+ 
+-#~ msgid "Github"
+-#~ msgstr "Github"
++msgid "Github"
++msgstr "Github"
+ 
+-#~ msgid "About"
+-#~ msgstr "Sobre"
++msgid "About"
++msgstr "Sobre"
