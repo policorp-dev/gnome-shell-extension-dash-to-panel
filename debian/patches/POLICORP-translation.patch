@@ -610,7 +610,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Running indicator"
  msgstr "Posição do indicador de execução"
  
-@@ -1458,80 +1400,78 @@ msgid "Running indicator style (Unfocuse
+@@ -1458,80 +1400,81 @@ msgid "Running indicator style (Unfocuse
  msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
  
  #: ui/SettingsStyle.ui.h:22
@@ -660,67 +660,70 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Gradient bottom color and opacity (%)"
 -msgstr ""
 +msgstr "Cor de fundo gradiente e opacidade (%)"
- 
--#~ msgid "New Window"
--#~ msgstr "Nova janela"
++
 +msgid "New Window"
 +msgstr "Nova janela"
  
--#~ msgid "Show Details"
--#~ msgstr "Exibir detalhes"
+-#~ msgid "New Window"
+-#~ msgstr "Nova janela"
 +msgid "Show Details"
 +msgstr "Exibir detalhes"
  
--#~ msgid "Top Bar"
--#~ msgstr "Barra superior"
+-#~ msgid "Show Details"
+-#~ msgstr "Exibir detalhes"
 +msgid "Top Bar"
 +msgstr "Barra superior"
  
--#~ msgid "Move to current Workspace"
--#~ msgstr "Mover ao espaço de trabalho atual"
+-#~ msgid "Top Bar"
+-#~ msgstr "Barra superior"
 +msgid "Move to current Workspace"
 +msgstr "Mover ao espaço de trabalho atual"
  
--#~ msgid "Natural"
--#~ msgstr "Natural"
+-#~ msgid "Move to current Workspace"
+-#~ msgstr "Mover ao espaço de trabalho atual"
 +msgid "Natural"
 +msgstr "Natural"
  
--#~ msgid "Style"
--#~ msgstr "Estilo"
+-#~ msgid "Natural"
+-#~ msgstr "Natural"
 +msgid "Style"
 +msgstr "Estilo"
  
--#~ msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
--#~ msgstr ""
--#~ "Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
--#~ "Ferramenta de ajustes do GNOME"
+-#~ msgid "Style"
+-#~ msgstr "Estilo"
 +msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
 +msgstr ""
 +"Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
 +"Ferramenta de ajustes do GNOME"
  
--#~ msgid "Behavior"
--#~ msgstr "Comportamento"
+-#~ msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
+-#~ msgstr ""
+-#~ "Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
+-#~ "Ferramenta de ajustes do GNOME"
 +msgid "Behavior"
 +msgstr "Comportamento"
  
--#~ msgid "Action"
--#~ msgstr "Ação"
+-#~ msgid "Behavior"
+-#~ msgstr "Comportamento"
 +msgid "Action"
 +msgstr "Ação"
  
--#~ msgid "Fine-Tune"
--#~ msgstr "Ajustes finos"
+-#~ msgid "Action"
+-#~ msgstr "Ação"
 +msgid "Fine-Tune"
 +msgstr "Ajustes finos"
  
--#~ msgid "Github"
--#~ msgstr "Github"
+-#~ msgid "Fine-Tune"
+-#~ msgstr "Ajustes finos"
 +msgid "Github"
 +msgstr "Github"
  
--#~ msgid "About"
--#~ msgstr "Sobre"
+-#~ msgid "Github"
+-#~ msgstr "Github"
 +msgid "About"
 +msgstr "Sobre"
+ 
+-#~ msgid "About"
+-#~ msgstr "Sobre"
++msgid "Position"
++msgstr "Posição"
