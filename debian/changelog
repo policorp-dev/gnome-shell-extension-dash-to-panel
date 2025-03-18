@@ -1,14 +1,15 @@
-gnome-shell-extension-dash-to-panel (65.Policorp-3) stable; urgency=medium
+gnome-shell-extension-dash-to-panel (68.Policorp-2) stable; urgency=medium
 
-  * Updated translation in pt_BR
+  * Updated in Policorp
 
- -- Edson Juliano Drosdeck <edson@policorp.com.br>  Mon, 17 Mar 2025 11:04:43 -0300
+ -- Jonathan Carter <jcc@debian.org>  Tue, 18 Mar 2025 19:23:55 +0000
 
-gnome-shell-extension-dash-to-panel (65.Policorp-2) stable; urgency=medium
+gnome-shell-extension-dash-to-panel (68-1) unstable; urgency=medium
 
-  * updated version in policorp
+  * New upstream release 
+  * Remove patch for gnome-shell 48 support
 
- -- Edson Juliano Drosdeck <edson@policorp.com.br>  Mon, 10 Mar 2025 14:00:01 +0000
+ -- Jonathan Carter <jcc@debian.org>  Wed, 12 Mar 2025 16:07:49 +0200
 
 gnome-shell-extension-dash-to-panel (65-2) unstable; urgency=medium
 
