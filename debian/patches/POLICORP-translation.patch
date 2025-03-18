@@ -2,7 +2,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
 ===================================================================
 --- gnome-shell-extension-dash-to-panel.orig/po/pt_BR.po
 +++ gnome-shell-extension-dash-to-panel/po/pt_BR.po
-@@ -266,7 +266,6 @@ msgid "Windows"
+@@ -266,47 +266,42 @@ msgid "Windows"
  msgstr "Janelas"
  
  #: appIcons.js:1786
@@ -10,15 +10,20 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Power options"
  msgstr "Mais opções"
  
-@@ -275,7 +274,6 @@ msgid "Event logs"
- msgstr ""
+ #: appIcons.js:1791
+ msgid "Event logs"
+-msgstr ""
++msgstr "Logs de eventos"
  
  #: appIcons.js:1796
 -#, fuzzy
  msgid "System"
  msgstr "Menu do sistema"
  
-@@ -285,28 +283,25 @@ msgstr ""
+ #: appIcons.js:1801
+ msgid "Device Management"
+-msgstr ""
++msgstr "Gerenciamento de dispositivos"
  
  #: appIcons.js:1806
  msgid "Disk Management"
@@ -330,7 +335,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Hotkey overlay"
  msgstr "Número de sobreposição"
  
-@@ -1134,12 +1104,10 @@ msgstr ""
+@@ -1134,21 +1104,18 @@ msgstr ""
  "junto com Shift e Ctrl."
  
  #: ui/SettingsBehavior.ui.h:1
@@ -343,8 +348,10 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Show favorite applications"
  msgstr "Mostrar botão de aplicações"
  
-@@ -1148,7 +1116,6 @@ msgid "Show favorite applications on sec
- msgstr ""
+ #: ui/SettingsBehavior.ui.h:3
+ msgid "Show favorite applications on secondary panels"
+-msgstr ""
++msgstr "Mostrar aplicações favoritas no segundo"
  
  #: ui/SettingsBehavior.ui.h:4
 -#, fuzzy
@@ -424,8 +431,12 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "LeftBox Font Size"
  msgstr ""
  "Tamanho da fonte da caixa da esquerda\n"
-@@ -1226,21 +1188,18 @@ msgid "Padding"
- msgstr ""
+@@ -1223,24 +1185,21 @@ msgstr ""
+ 
+ #: ui/SettingsFineTune.ui.h:5
+ msgid "Padding"
+-msgstr ""
++msgstr "Preenchimento"
  
  #: ui/SettingsFineTune.ui.h:6
 -#, fuzzy
@@ -458,7 +469,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Animate"
  msgstr "Tipo de animação"
  
-@@ -1265,10 +1223,9 @@ msgstr "Carregamento animado de novas ja
+@@ -1265,28 +1223,25 @@ msgstr "Carregamento animado de novas ja
  
  #: ui/SettingsFineTune.ui.h:13
  msgid "Gnome functionality"
@@ -470,7 +481,13 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Keep original gnome-shell dash"
  msgstr "Manter o painel original do gnome-shell (visão principal)"
  
-@@ -1281,12 +1238,10 @@ msgid "Keep original gnome-shell top pan
+ #: ui/SettingsFineTune.ui.h:15
+ msgid "(overview)"
+-msgstr ""
++msgstr "(visão geral)"
+ 
+ #: ui/SettingsFineTune.ui.h:16
+ msgid "Keep original gnome-shell top panel"
  msgstr "Manter o painel superior original do gnome-shell"
  
  #: ui/SettingsFineTune.ui.h:17
@@ -593,7 +610,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Running indicator"
  msgstr "Posição do indicador de execução"
  
-@@ -1458,35 +1400,33 @@ msgid "Running indicator style (Unfocuse
+@@ -1458,80 +1400,81 @@ msgid "Running indicator style (Unfocuse
  msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
  
  #: ui/SettingsStyle.ui.h:22
@@ -634,3 +651,79 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  
  #: ui/SettingsStyle.ui.h:32
  #, no-c-format
+ msgid "Gradient top color and opacity (%)"
+-msgstr ""
++msgstr "Gradiente de cor superior e opacidade (%)"
+ 
+ #: ui/SettingsStyle.ui.h:34
+ #, no-c-format
+ msgid "Gradient bottom color and opacity (%)"
+-msgstr ""
++msgstr "Cor de fundo gradiente e opacidade (%)"
++
++msgid "New Window"
++msgstr "Nova janela"
+ 
+-#~ msgid "New Window"
+-#~ msgstr "Nova janela"
++msgid "Show Details"
++msgstr "Exibir detalhes"
+ 
+-#~ msgid "Show Details"
+-#~ msgstr "Exibir detalhes"
++msgid "Top Bar"
++msgstr "Barra superior"
+ 
+-#~ msgid "Top Bar"
+-#~ msgstr "Barra superior"
++msgid "Move to current Workspace"
++msgstr "Mover ao espaço de trabalho atual"
+ 
+-#~ msgid "Move to current Workspace"
+-#~ msgstr "Mover ao espaço de trabalho atual"
++msgid "Natural"
++msgstr "Natural"
+ 
+-#~ msgid "Natural"
+-#~ msgstr "Natural"
++msgid "Style"
++msgstr "Estilo"
+ 
+-#~ msgid "Style"
+-#~ msgstr "Estilo"
++msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
++msgstr ""
++"Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
++"Ferramenta de ajustes do GNOME"
+ 
+-#~ msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
+-#~ msgstr ""
+-#~ "Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
+-#~ "Ferramenta de ajustes do GNOME"
++msgid "Behavior"
++msgstr "Comportamento"
+ 
+-#~ msgid "Behavior"
+-#~ msgstr "Comportamento"
++msgid "Action"
++msgstr "Ação"
+ 
+-#~ msgid "Action"
+-#~ msgstr "Ação"
++msgid "Fine-Tune"
++msgstr "Ajustes finos"
+ 
+-#~ msgid "Fine-Tune"
+-#~ msgstr "Ajustes finos"
++msgid "Github"
++msgstr "Github"
+ 
+-#~ msgid "Github"
+-#~ msgstr "Github"
++msgid "About"
++msgstr "Sobre"
+ 
+-#~ msgid "About"
+-#~ msgstr "Sobre"
++msgid "Position"
++msgstr "Posição"
