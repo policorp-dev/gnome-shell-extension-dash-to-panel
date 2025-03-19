@@ -1,5 +1,5 @@
-support-gnome-shell-v48
 0001-desabilitar-show-apps-btn.patch
 0002-opacity.patch
 hide-overview-in-startup.patch
+remove-updat-notify.pach
 POLICORP-translation.patch

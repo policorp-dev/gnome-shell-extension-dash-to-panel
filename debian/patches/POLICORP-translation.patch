@@ -28,7 +28,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: appIcons.js:1806
  msgid "Disk Management"
 -msgstr ""
-+msgstr "Gerenciador de disco"
++msgstr "Gerenciamento de Disco"
  
  #: appIcons.js:1819
  msgid "Terminal"
@@ -60,7 +60,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/BoxAdvancedOptions.ui.h:2
  msgid "For real..."
 -msgstr ""
-+msgstr "Sério"
++msgstr "Sério..."
  
  #: ui/BoxAnimateAppIconHoverOptions.ui.h:1
  msgid "Animation type"
@@ -69,7 +69,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/BoxDynamicOpacityOptions.ui.h:1
  msgid "The panel background opacity is affected by"
 -msgstr ""
-+msgstr "A opacidade do fundo do painel é afetado por"
++msgstr "A opacidade do fundo do painel é afetada por"
  
  #: ui/BoxDynamicOpacityOptions.ui.h:2 ui/BoxIntellihideOptions.ui.h:3
  msgid "All windows"
@@ -78,7 +78,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/BoxDynamicOpacityOptions.ui.h:5
  msgid "Change opacity when a window gets closer than (px)"
 -msgstr ""
-+msgstr "Alterar a opacidade quando uma janela se aproxima mais de (px)"
++msgstr "Alterar a opacidade quando uma janela se aproxima mais do que (px)"
  
  #: ui/BoxDynamicOpacityOptions.ui.h:7
  #, no-c-format
@@ -96,7 +96,18 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Opacity change animation duration (ms)"
  msgstr "Ocultar e revelar a duração da animação (ms)"
  
-@@ -502,12 +496,10 @@ msgid "Font color of the minimized appli
+@@ -481,6 +475,10 @@ msgstr "herdar do tema"
+ msgid "normal"
+ msgstr "normal"
+ 
++#: ui/SettingsStyle.ui:165
++msgid "Icon style"
++msgstr "Estilo do ícone"
++
+ #: ui/BoxGroupAppsOptions.ui.h:5 ui/BoxWindowPreviewOptions.ui.h:46
+ msgid "lighter"
+ msgstr "mais fino"
+@@ -502,12 +500,10 @@ msgid "Font color of the minimized appli
  msgstr "Cor da letra dos títulos de aplicações minimizadas"
  
  #: ui/BoxGroupAppsOptions.ui.h:10
@@ -109,7 +120,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 160)"
  msgstr ""
  "Comprimento do painel (%)\n"
-@@ -536,7 +528,6 @@ msgid "Use the favorite icons as applica
+@@ -536,7 +532,6 @@ msgid "Use the favorite icons as applica
  msgstr "Usar os ícones favoritos como lançadores de aplicações"
  
  #: ui/BoxIntellihideOptions.ui.h:1
@@ -117,7 +128,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Only hide the panel when it is obstructed by windows"
  msgstr "Somente ocultar o painel quando ele estiver obstruido por janelas "
  
-@@ -561,13 +552,11 @@ msgid "Allow the panel to be revealed wh
+@@ -561,13 +556,11 @@ msgid "Allow the panel to be revealed wh
  msgstr "Permitir que o painel seja revelado no modo de tela inteira "
  
  #: ui/BoxIntellihideOptions.ui.h:10
@@ -131,15 +142,20 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(requires multi-monitors option)"
  msgstr ""
  "Oculte apenas os painéis secundários (requer a opção de vários monitores)"
-@@ -609,7 +598,6 @@ msgstr ""
+@@ -608,8 +601,11 @@ msgstr ""
+ "Quando definido para minimizar, clicando duas vezes minimiza todas as "
  "janelas da aplicação."
  
++#: ui/SettingsAction.ui:179
++msgid "Panel context menu entries"
++msgstr "Entradas do menu de contexto do painel"
++
  #: ui/BoxMiddleClickOptions.ui.h:3 ui/SettingsAction.ui.h:8
 -#, fuzzy
  msgid "Raise windows"
  msgstr "Elevar a janela"
  
-@@ -702,12 +690,10 @@ msgid "Shortcut to show the overlay for
+@@ -702,12 +698,10 @@ msgid "Shortcut to show the overlay for
  msgstr "Atalho para exibir a sobreposição por 2 segundos"
  
  #: ui/BoxOverlayShortcut.ui.h:13
@@ -152,7 +168,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Show window previews on hotkey"
  msgstr "Mostrar pré-visulização da janela ao pairar"
  
-@@ -716,7 +702,6 @@ msgid "Show previews when the applicatio
+@@ -716,13 +710,12 @@ msgid "Show previews when the applicatio
  msgstr "Mostrar pré-visualização quando o aplicativo tiver várias instâncias "
  
  #: ui/BoxOverlayShortcut.ui.h:16
@@ -160,7 +176,14 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Hotkeys are activated with"
  msgstr "Utilizar teclas de atalho para ativar os aplicativos"
  
-@@ -738,19 +723,19 @@ msgstr "Ambos"
+ #: ui/BoxOverlayShortcut.ui.h:17
+ msgid "Select which keyboard number keys are used to activate the hotkeys"
+-msgstr ""
++msgstr "Selecione quais teclas numéricas do teclado são usadas para ativar as teclas de atalho"
+ 
+ #: ui/BoxOverlayShortcut.ui.h:18
+ msgid "Number row"
+@@ -738,19 +731,19 @@ msgstr "Ambos"
  
  #: ui/BoxScrollIconOptions.ui.h:1 ui/BoxScrollPanelOptions.ui.h:1
  msgid "Delay between mouse scroll events (ms)"
@@ -170,7 +193,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/BoxScrollIconOptions.ui.h:2 ui/BoxScrollPanelOptions.ui.h:2
  msgid "Use this value to limit the number of captured mouse scroll events."
 -msgstr ""
-+msgstr "Use este valor para limitar o número de eventos de rolagem do mouse capturados."
++msgstr "Use este valor para limitar o número de eventos de rolagem do mouse capturados"
  
  #: ui/BoxScrollPanelOptions.ui.h:3
  msgid "Show popup when changing workspace"
@@ -184,7 +207,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  
  #: ui/BoxSecondaryMenuOptions.ui.h:1
  msgid "Integrate <i>AppMenu</i> items"
-@@ -761,54 +746,48 @@ msgid "<i>Show Details</i> menu item"
+@@ -761,54 +754,48 @@ msgid "<i>Show Details</i> menu item"
  msgstr "Item do menu <i>Exibir detalhes</i>"
  
  #: ui/BoxShowApplicationsOptions.ui.h:1
@@ -244,7 +267,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  
  #: ui/BoxWindowPreviewOptions.ui.h:5
  msgid "Immediate on application icon click"
-@@ -931,7 +910,6 @@ msgid "Use custom opacity for the previe
+@@ -931,7 +918,6 @@ msgid "Use custom opacity for the previe
  msgstr "Usar opacidade customizada para o plano de fundo da pré-visualização"
  
  #: ui/BoxWindowPreviewOptions.ui.h:35
@@ -252,19 +275,24 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid ""
  "If disabled, the previews background have the same opacity as the panel."
  msgstr ""
-@@ -1007,10 +985,9 @@ msgstr ""
+@@ -1003,14 +989,13 @@ msgstr "Opacidade do modo de visualizaç
+ msgid ""
+ "All windows except for the peeked one have their opacity set to the same "
+ "value."
+-msgstr ""
++msgstr "Todas as janelas, exceto a que está espiada, têm sua opacidade definida para o mesmo valor"
  
  #: ui/SettingsAbout.ui.h:1
  msgid "Info"
 -msgstr ""
-+msgstr "informação"
++msgstr "Informação"
  
  #: ui/SettingsAbout.ui.h:2
 -#, fuzzy
  msgid "Version"
  msgstr "versão: "
  
-@@ -1023,7 +1000,6 @@ msgid "GitHub"
+@@ -1023,7 +1008,6 @@ msgid "GitHub"
  msgstr ""
  
  #: ui/SettingsAbout.ui.h:5
@@ -272,7 +300,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Export and Import"
  msgstr "Exportar e importar configurações"
  
-@@ -1068,56 +1044,50 @@ msgid "Behaviour when clicking on the ic
+@@ -1068,56 +1052,50 @@ msgid "Behaviour when clicking on the ic
  msgstr "Comportamento ao clicar sobre o ícone de um aplicativo em execução."
  
  #: ui/SettingsAction.ui.h:7
@@ -328,14 +356,14 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/SettingsAction.ui.h:19
  msgid "Same as panel"
 -msgstr ""
-+msgstr "Igual ao painel"
++msgstr "mesmo que painel"
  
  #: ui/SettingsAction.ui.h:20
 -#, fuzzy
  msgid "Hotkey overlay"
  msgstr "Número de sobreposição"
  
-@@ -1134,21 +1104,18 @@ msgstr ""
+@@ -1134,21 +1112,18 @@ msgstr ""
  "junto com Shift e Ctrl."
  
  #: ui/SettingsBehavior.ui.h:1
@@ -351,14 +379,14 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/SettingsBehavior.ui.h:3
  msgid "Show favorite applications on secondary panels"
 -msgstr ""
-+msgstr "Mostrar aplicações favoritas no segundo"
++msgstr "Mostrar aplicativos favoritos em painéis secundários"
  
  #: ui/SettingsBehavior.ui.h:4
 -#, fuzzy
  msgid "Show running applications"
  msgstr "Mostrar botão de aplicações"
  
-@@ -1157,65 +1124,60 @@ msgid "Show <i>AppMenu</i> button"
+@@ -1157,65 +1132,60 @@ msgid "Show <i>AppMenu</i> button"
  msgstr "Mostrar botão <i>Menu de aplicativos</i>"
  
  #: ui/SettingsBehavior.ui.h:6
@@ -431,7 +459,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "LeftBox Font Size"
  msgstr ""
  "Tamanho da fonte da caixa da esquerda\n"
-@@ -1223,24 +1185,21 @@ msgstr ""
+@@ -1223,24 +1193,21 @@ msgstr ""
  
  #: ui/SettingsFineTune.ui.h:5
  msgid "Padding"
@@ -457,7 +485,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Status Icon Padding"
  msgstr ""
  "Preenchimento do ícone de status\n"
-@@ -1248,10 +1207,9 @@ msgstr ""
+@@ -1248,10 +1215,9 @@ msgstr ""
  
  #: ui/SettingsFineTune.ui.h:9
  msgid "LeftBox Padding"
@@ -469,7 +497,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Animate"
  msgstr "Tipo de animação"
  
-@@ -1265,28 +1223,25 @@ msgstr "Carregamento animado de novas ja
+@@ -1265,28 +1231,25 @@ msgstr "Carregamento animado de novas ja
  
  #: ui/SettingsFineTune.ui.h:13
  msgid "Gnome functionality"
@@ -484,7 +512,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/SettingsFineTune.ui.h:15
  msgid "(overview)"
 -msgstr ""
-+msgstr "(visão geral)"
++msgstr "(Visão geral)"
  
  #: ui/SettingsFineTune.ui.h:16
  msgid "Keep original gnome-shell top panel"
@@ -500,7 +528,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(e.g. date menu)"
  msgstr "Menu de data"
  
-@@ -1295,18 +1250,16 @@ msgid "Force Activities hot corner on pr
+@@ -1295,18 +1258,16 @@ msgid "Force Activities hot corner on pr
  msgstr "Forçar as ativiadades de canto 'quente' no monitor principal"
  
  #: ui/SettingsFineTune.ui.h:20
@@ -520,19 +548,23 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  
  #: ui/SettingsPosition.ui.h:2
  msgid "Display the main panel on"
-@@ -1326,10 +1279,9 @@ msgstr "Oculta e exbide o painel conform
+@@ -1326,10 +1287,13 @@ msgstr "Oculta e exbide o painel conform
  
  #: ui/SettingsPosition.ui.h:6
  msgid "Order and Position on monitors"
 -msgstr ""
-+msgstr "Ordem e posição nos monitores"
++msgstr "Ordem e Posição nos monitores"
++
++#: ui/SettingsAction.ui:158
++msgid "Secondary menu"
++msgstr "Menu secundário"
  
  #: ui/SettingsPosition.ui.h:7
 -#, fuzzy
  msgid "Monitor"
  msgstr "Monitor "
  
-@@ -1342,28 +1294,24 @@ msgid "Panel screen position"
+@@ -1342,55 +1306,64 @@ msgid "Panel screen position"
  msgstr "Posição da tela do painel"
  
  #: ui/SettingsPosition.ui.h:14
@@ -561,7 +593,18 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 100)"
  msgstr ""
  "Comprimento do painel (%)\n"
-@@ -1374,23 +1322,20 @@ msgid "Anchor"
+ "(padrão é 100)"
+ 
++#: ui/SettingsPosition.ui:169
++msgid "Panel length"
++msgstr "Comprimento do painel"
++
++#: ui/SettingsPosition.ui:174
++msgid "Dynamic"
++msgstr "Dinâmico"
++
+ #: ui/SettingsPosition.ui.h:19
+ msgid "Anchor"
  msgstr "Âncora"
  
  #: ui/SettingsPosition.ui.h:23
@@ -572,7 +615,15 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/SettingsStyle.ui.h:1
  msgid "AppIcon style"
 -msgstr ""
-+msgstr "AppIcon estilo"
++msgstr "Estilo de ícones"
++
++#: ui/SettingsStyle.ui:62
++msgid "Global style"
++msgstr "Estilo global"
++
++#: ui/SettingsStyle.ui:65
++msgid "Border radius"
++msgstr "Raio da borda"
  
  #: ui/SettingsStyle.ui.h:2
 -#, fuzzy
@@ -586,7 +637,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 8)"
  msgstr ""
  "Margem do ícone do Aplicativo\n"
-@@ -1398,22 +1343,19 @@ msgstr ""
+@@ -1398,22 +1371,19 @@ msgstr ""
  
  #: ui/SettingsStyle.ui.h:4
  msgid "App Icon Padding"
@@ -610,7 +661,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Running indicator"
  msgstr "Posição do indicador de execução"
  
-@@ -1458,80 +1400,81 @@ msgid "Running indicator style (Unfocuse
+@@ -1458,80 +1428,81 @@ msgid "Running indicator style (Unfocuse
  msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
  
  #: ui/SettingsStyle.ui.h:22
