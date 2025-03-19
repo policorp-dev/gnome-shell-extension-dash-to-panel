@@ -601,7 +601,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
 +
 +#: ui/SettingsPosition.ui:174
 +msgid "Dynamic"
-+msgstr "Dinamico"
++msgstr "Dinâmico"
 +
  #: ui/SettingsPosition.ui.h:19
  msgid "Anchor"
