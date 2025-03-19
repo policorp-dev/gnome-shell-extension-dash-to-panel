@@ -661,7 +661,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Running indicator"
  msgstr "Posição do indicador de execução"
  
-@@ -1458,80 +1428,81 @@ msgid "Running indicator style (Unfocuse
+@@ -1458,80 +1428,102 @@ msgid "Running indicator style (Unfocuse
  msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
  
  #: ui/SettingsStyle.ui.h:22
@@ -669,6 +669,27 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Panel style"
  msgstr "Ocultação inteligente do painel"
  
++#: ui/SettingsStyle.ui:277 ui/SettingsStyle.ui:293 ui/SettingsStyle.ui:309
++#: ui/SettingsStyle.ui:325
++msgid "(default is 0)"
++msgstr "(Padrão é 0)"
++
++#: ui/SettingsStyle.ui:278
++msgid "Side margins"
++msgstr "Margens laterais"
++
++#: ui/SettingsStyle.ui:294
++msgid "Top and bottom margins"
++msgstr "Margens superior e inferior"
++
++#: ui/SettingsStyle.ui:310
++msgid "Side padding"
++msgstr "Preenchimento lateral"
++
++#: ui/SettingsStyle.ui:326
++msgid "Top and bottom padding"
++msgstr "Preenchimento superior e inferior"
++
  #: ui/SettingsStyle.ui.h:23
  msgid "Override panel theme background color"
 -msgstr ""
