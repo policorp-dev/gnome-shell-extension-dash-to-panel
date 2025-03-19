@@ -1,8 +1,14 @@
+gnome-shell-extension-dash-to-panel (68.Policorp-3) stable; urgency=medium
+
+  * alterado espessura de 48 para 45
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Wed, 19 Mar 2025 15:05:39 -0300
+
 gnome-shell-extension-dash-to-panel (68.Policorp-2) stable; urgency=medium
 
   * Updated in Policorp
 
- -- Jonathan Carter <jcc@debian.org>  Tue, 18 Mar 2025 19:23:55 +0000
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Tue, 18 Mar 2025 19:23:55 +0000
 
 gnome-shell-extension-dash-to-panel (68-1) unstable; urgency=medium
 
