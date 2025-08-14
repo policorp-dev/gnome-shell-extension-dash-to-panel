@@ -1,0 +1,13 @@
+Index: gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+===================================================================
+--- gnome-shell-extension-dash-to-panel.orig/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
++++ gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+@@ -779,7 +779,7 @@
+         <summary>Border radius of panel elements</summary>
+     </key>
+     <key type="i" name="appicon-margin">
+-        <default>8</default>
++        <default>4</default>
+         <summary>App icon margin</summary>
+         <description>Set the margin for application icons in the embedded dash.</description>
+     </key>
