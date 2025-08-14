@@ -637,7 +637,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 8)"
  msgstr ""
  "Margem do ícone do Aplicativo\n"
-@@ -1398,22 +1371,19 @@ msgstr ""
+@@ -1398,22 +1371,23 @@ msgstr ""
  
  #: ui/SettingsStyle.ui.h:4
  msgid "App Icon Padding"
@@ -656,12 +656,16 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Animate hovering app icons"
  msgstr "Animar alternações dos aplicativos"
  
++#: ui/SettingsStyle.ui:141
++msgid "Highlight hovering app icons"
++msgstr "Realçar ícones de aplicativos ao passar o mouse"
++
  #: ui/SettingsStyle.ui.h:7
 -#, fuzzy
  msgid "Running indicator"
  msgstr "Posição do indicador de execução"
  
-@@ -1458,80 +1428,102 @@ msgid "Running indicator style (Unfocuse
+@@ -1458,80 +1432,102 @@ msgid "Running indicator style (Unfocuse
  msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
  
  #: ui/SettingsStyle.ui.h:22
