@@ -1,3 +1,9 @@
+gnome-shell-extension-dash-to-panel (68.Policorp-5) stable; urgency=medium
+
+  * Alterado margem icon
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 14 Aug 2025 18:21:32 +0000
+
 gnome-shell-extension-dash-to-panel (68.Policorp-4) stable; urgency=medium
 
   * Added translation
