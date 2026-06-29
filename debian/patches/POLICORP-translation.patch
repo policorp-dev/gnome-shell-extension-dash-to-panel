@@ -586,7 +586,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 100)"
  msgstr ""
  "Comprimento do painel (%)\n"
-@@ -1374,23 +1323,20 @@ msgid "Anchor"
+@@ -1374,23 +1323,24 @@ msgid "Anchor"
  msgstr "Âncora"
  
  #: ui/SettingsPosition.ui.h:23
@@ -597,6 +597,10 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  #: ui/SettingsStyle.ui.h:1
  msgid "AppIcon style"
 -msgstr ""
++msgstr "Estilo do ícone"
++
++#: ui/SettingsStyle.ui.h:1
++msgid "Icon style"
 +msgstr "Estilo do ícone"
  
  #: ui/SettingsStyle.ui.h:2
@@ -611,7 +615,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 8)"
  msgstr ""
  "Margem do ícone do Aplicativo\n"
-@@ -1398,22 +1344,17 @@ msgstr ""
+@@ -1398,22 +1348,17 @@ msgstr ""
  
  #: ui/SettingsStyle.ui.h:4
  msgid "App Icon Padding"
@@ -636,7 +640,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Running indicator"
  msgstr "Posição do indicador de execução"
  
-@@ -1458,45 +1399,43 @@ msgid "Running indicator style (Unfocuse
+@@ -1458,80 +1403,82 @@ msgid "Running indicator style (Unfocuse
  msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
  
  #: ui/SettingsStyle.ui.h:22
@@ -659,6 +663,10 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Panel background opacity (%)"
 -msgstr ""
 +msgstr "Opacidade (%) do fundo do painel"
++
++#: ui/SettingsStyle.ui.h:28
++msgid "Dynamic"
++msgstr "Dinâmico"
  
  #: ui/SettingsStyle.ui.h:28
 -#, fuzzy
@@ -687,5 +695,64 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
 -msgstr ""
 +msgstr "Cor e opacidade (%) do gradiente inferior"
  
- #~ msgid "New Window"
- #~ msgstr "Nova janela"
+-#~ msgid "New Window"
+-#~ msgstr "Nova janela"
++msgid "New Window"
++msgstr "Nova janela"
+ 
+-#~ msgid "Show Details"
+-#~ msgstr "Exibir detalhes"
++msgid "Show Details"
++msgstr "Exibir detalhes"
+ 
+-#~ msgid "Top Bar"
+-#~ msgstr "Barra superior"
++msgid "Top Bar"
++msgstr "Barra superior"
+ 
+-#~ msgid "Move to current Workspace"
+-#~ msgstr "Mover ao espaço de trabalho atual"
++msgid "Move to current Workspace"
++msgstr "Mover ao espaço de trabalho atual"
+ 
+-#~ msgid "Natural"
+-#~ msgstr "Natural"
++msgid "Natural"
++msgstr "Natural"
+ 
+-#~ msgid "Style"
+-#~ msgstr "Estilo"
++msgid "Style"
++msgstr "Estilo"
+ 
+-#~ msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
+-#~ msgstr ""
+-#~ "Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
+-#~ "Ferramenta de ajustes do GNOME"
++msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
++msgstr ""
++"Barra superior > Mostrar o Menu do aplicativos deve ser ativado na "
++"Ferramenta de ajustes do GNOME"
+ 
+-#~ msgid "Behavior"
+-#~ msgstr "Comportamento"
++msgid "Behavior"
++msgstr "Comportamento"
+ 
+-#~ msgid "Action"
+-#~ msgstr "Ação"
++msgid "Action"
++msgstr "Ação"
+ 
+-#~ msgid "Fine-Tune"
+-#~ msgstr "Ajustes finos"
++msgid "Fine-Tune"
++msgstr "Ajustes finos"
+ 
+ #~ msgid "Github"
+ #~ msgstr "Github"
+ 
+-#~ msgid "About"
+-#~ msgstr "Sobre"
++msgid "About"
++msgstr "Sobre"
