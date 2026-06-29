@@ -1,13 +1,10 @@
 Source: gnome-shell-extension-dash-to-panel
 Section: gnome
 Priority: optional
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Jonathan Carter <jcc@debian.org>
+Maintainer: Edson Juliano Drosdeck <edson@policorp.com.br>
 Build-Depends: debhelper-compat (= 13), libglib2.0-bin, python3
 Standards-Version: 4.7.2
 Homepage: https://github.com/jderose9/dash-to-panel
-Vcs-Git: https://salsa.debian.org/gnome-team/shell-extensions/gnome-shell-extension-dash-to-panel.git
-Vcs-Browser: https://salsa.debian.org/gnome-team/shell-extensions/gnome-shell-extension-dash-to-panel
 
 Package: gnome-shell-extension-dash-to-panel
 Architecture: all
