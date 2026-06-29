@@ -1,0 +1,691 @@
+Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
+===================================================================
+--- gnome-shell-extension-dash-to-panel.orig/po/pt_BR.po
++++ gnome-shell-extension-dash-to-panel/po/pt_BR.po
+@@ -266,47 +266,42 @@ msgid "Windows"
+ msgstr "Janelas"
+ 
+ #: appIcons.js:1786
+-#, fuzzy
+ msgid "Power options"
+ msgstr "Mais opções"
+ 
+ #: appIcons.js:1791
+ msgid "Event logs"
+-msgstr ""
++msgstr "Registros de eventos"
+ 
+ #: appIcons.js:1796
+-#, fuzzy
+ msgid "System"
+ msgstr "Menu do sistema"
+ 
+ #: appIcons.js:1801
+ msgid "Device Management"
+-msgstr ""
++msgstr "Gerenciamento de dispositivos"
+ 
+ #: appIcons.js:1806
+ msgid "Disk Management"
+-msgstr ""
++msgstr "Gerenciamento de Disco"
+ 
+ #: appIcons.js:1819
+ msgid "Terminal"
+-msgstr ""
++msgstr "Terminal"
+ 
+ #: appIcons.js:1824
+-#, fuzzy
+ msgid "System monitor"
+ msgstr "Menu do sistema"
+ 
+ #: appIcons.js:1829
+ msgid "Files"
+-msgstr ""
++msgstr "Arquivos"
+ 
+ #: appIcons.js:1834
+-#, fuzzy
+ msgid "Extensions"
+ msgstr "Extensão "
+ 
+ #: appIcons.js:1839
+-#, fuzzy
+ msgid "Settings"
+ msgstr "Exportar configurações"
+ 
+@@ -336,7 +331,7 @@ msgstr "Nada ainda!"
+ 
+ #: ui/BoxAdvancedOptions.ui.h:2
+ msgid "For real..."
+-msgstr ""
++msgstr "Sério..."
+ 
+ #: ui/BoxAnimateAppIconHoverOptions.ui.h:1
+ msgid "Animation type"
+@@ -376,7 +371,7 @@ msgstr "Convexidade "
+ 
+ #: ui/BoxAnimateAppIconHoverOptions.ui.h:10
+ msgid "Extent"
+-msgstr "Extensão "
++msgstr "Extensão"
+ 
+ #: ui/BoxDotOptions.ui.h:1
+ msgid "Highlight focused application"
+@@ -432,7 +427,7 @@ msgstr "Usar diferente para desfocado"
+ 
+ #: ui/BoxDynamicOpacityOptions.ui.h:1
+ msgid "The panel background opacity is affected by"
+-msgstr ""
++msgstr "A opacidade do fundo do painel é afetada por"
+ 
+ #: ui/BoxDynamicOpacityOptions.ui.h:2 ui/BoxIntellihideOptions.ui.h:3
+ msgid "All windows"
+@@ -448,12 +443,12 @@ msgstr "Janelas maximizadas"
+ 
+ #: ui/BoxDynamicOpacityOptions.ui.h:5
+ msgid "Change opacity when a window gets closer than (px)"
+-msgstr ""
++msgstr "Alterar a opacidade quando uma janela se aproxima mais do que (px)"
+ 
+ #: ui/BoxDynamicOpacityOptions.ui.h:7
+ #, no-c-format
+ msgid "Change opacity to (%)"
+-msgstr ""
++msgstr "Trocar opacidade para (%)"
+ 
+ #: ui/BoxDynamicOpacityOptions.ui.h:8 ui/BoxShowApplicationsOptions.ui.h:3
+ #: ui/BoxWindowPreviewOptions.ui.h:57 ui/SettingsStyle.ui.h:27
+@@ -461,7 +456,6 @@ msgid "0"
+ msgstr ""
+ 
+ #: ui/BoxDynamicOpacityOptions.ui.h:9
+-#, fuzzy
+ msgid "Opacity change animation duration (ms)"
+ msgstr "Ocultar e revelar a duração da animação (ms)"
+ 
+@@ -502,12 +496,10 @@ msgid "Font color of the minimized appli
+ msgstr "Cor da letra dos títulos de aplicações minimizadas"
+ 
+ #: ui/BoxGroupAppsOptions.ui.h:10
+-#, fuzzy
+ msgid "Maximum width (px) of the application titles"
+ msgstr "Comprimento máximo (px) dos títulos da aplicação (padrão é 160)"
+ 
+ #: ui/BoxGroupAppsOptions.ui.h:11
+-#, fuzzy
+ msgid "(default is 160)"
+ msgstr ""
+ "Comprimento do painel (%)\n"
+@@ -536,7 +528,6 @@ msgid "Use the favorite icons as applica
+ msgstr "Usar os ícones favoritos como lançadores de aplicações"
+ 
+ #: ui/BoxIntellihideOptions.ui.h:1
+-#, fuzzy
+ msgid "Only hide the panel when it is obstructed by windows"
+ msgstr "Somente ocultar o painel quando ele estiver obstruido por janelas "
+ 
+@@ -561,13 +552,11 @@ msgid "Allow the panel to be revealed wh
+ msgstr "Permitir que o painel seja revelado no modo de tela inteira "
+ 
+ #: ui/BoxIntellihideOptions.ui.h:10
+-#, fuzzy
+ msgid "Only hide secondary panels"
+ msgstr ""
+ "Oculte apenas os painéis secundários (requer a opção de vários monitores)"
+ 
+ #: ui/BoxIntellihideOptions.ui.h:11
+-#, fuzzy
+ msgid "(requires multi-monitors option)"
+ msgstr ""
+ "Oculte apenas os painéis secundários (requer a opção de vários monitores)"
+@@ -609,7 +598,6 @@ msgstr ""
+ "janelas da aplicação."
+ 
+ #: ui/BoxMiddleClickOptions.ui.h:3 ui/SettingsAction.ui.h:8
+-#, fuzzy
+ msgid "Raise windows"
+ msgstr "Elevar a janela"
+ 
+@@ -702,12 +690,10 @@ msgid "Shortcut to show the overlay for
+ msgstr "Atalho para exibir a sobreposição por 2 segundos"
+ 
+ #: ui/BoxOverlayShortcut.ui.h:13
+-#, fuzzy
+ msgid "e.g. <Super>q"
+ msgstr "p.e. <Super>i"
+ 
+ #: ui/BoxOverlayShortcut.ui.h:14
+-#, fuzzy
+ msgid "Show window previews on hotkey"
+ msgstr "Mostrar pré-visualização da janela ao pairar"
+ 
+@@ -716,13 +702,12 @@ msgid "Show previews when the applicatio
+ msgstr "Mostrar pré-visualização quando o aplicativo tiver várias instâncias "
+ 
+ #: ui/BoxOverlayShortcut.ui.h:16
+-#, fuzzy
+ msgid "Hotkeys are activated with"
+ msgstr "Utilizar teclas de atalho para ativar os aplicativos"
+ 
+ #: ui/BoxOverlayShortcut.ui.h:17
+ msgid "Select which keyboard number keys are used to activate the hotkeys"
+-msgstr ""
++msgstr "Selecione quais teclas numéricas do teclado são usadas para ativar as teclas de atalho"
+ 
+ #: ui/BoxOverlayShortcut.ui.h:18
+ msgid "Number row"
+@@ -738,19 +723,19 @@ msgstr "Ambos"
+ 
+ #: ui/BoxScrollIconOptions.ui.h:1 ui/BoxScrollPanelOptions.ui.h:1
+ msgid "Delay between mouse scroll events (ms)"
+-msgstr ""
++msgstr "Atraso entre eventos de rolagem do mouse (ms)"
+ 
+ #: ui/BoxScrollIconOptions.ui.h:2 ui/BoxScrollPanelOptions.ui.h:2
+ msgid "Use this value to limit the number of captured mouse scroll events."
+-msgstr ""
++msgstr "Use este valor para limitar o número de eventos de rolagem do mouse capturados"
+ 
+ #: ui/BoxScrollPanelOptions.ui.h:3
+ msgid "Show popup when changing workspace"
+-msgstr ""
++msgstr "Mostrar pop-up ao alterar o espaço de trabalho"
+ 
+ #: ui/BoxScrollPanelOptions.ui.h:4
+ msgid "This affects workspace popup when scrolling on the panel only."
+-msgstr ""
++msgstr "Isso afeta o pop-up do espaço de trabalho somente ao rolar no painel."
+ 
+ #: ui/BoxSecondaryMenuOptions.ui.h:1
+ msgid "Integrate <i>AppMenu</i> items"
+@@ -761,54 +746,48 @@ msgid "<i>Show Details</i> menu item"
+ msgstr "Item do menu <i>Exibir detalhes</i>"
+ 
+ #: ui/BoxShowApplicationsOptions.ui.h:1
+-#, fuzzy
+ msgid "Show Applications icon"
+ msgstr "Mostrar as opções da aplicação"
+ 
+ #: ui/BoxShowApplicationsOptions.ui.h:2
+-#, fuzzy
+ msgid "Show Applications icon side padding (px)"
+ msgstr "Mostrar as opções da aplicação"
+ 
+ #: ui/BoxShowApplicationsOptions.ui.h:4
+ msgid "Override escape key and return to desktop"
+-msgstr ""
++msgstr "Substituir tecla escape e retornar à área de trabalho"
+ 
+ #: ui/BoxShowDesktopOptions.ui.h:1
+ msgid "Override Show Desktop line color"
+-msgstr ""
++msgstr "Substituir Mostrar cor da linha da área de trabalho"
+ 
+ #: ui/BoxShowDesktopOptions.ui.h:2
+ msgid "Reveal the desktop when hovering the Show Desktop button"
+-msgstr ""
++msgstr "Revelar a área de trabalho ao passar o mouse sobre o botão Mostrar área de trabalho"
+ 
+ #: ui/BoxShowDesktopOptions.ui.h:3
+-#, fuzzy
+ msgid "Delay before revealing the desktop (ms)"
+ msgstr "Tempo antes de ocultar o painel  (ms)"
+ 
+ #: ui/BoxShowDesktopOptions.ui.h:4
+-#, fuzzy
+ msgid "Fade duration (ms)"
+ msgstr "Ocultar tempo limite (ms)"
+ 
+ #: ui/BoxWindowPreviewOptions.ui.h:1
+-#, fuzzy
+ msgid "Time (ms) before showing"
+ msgstr "Tempo (ms) antes de mostrar (padrão é 400)"
+ 
+ #: ui/BoxWindowPreviewOptions.ui.h:2
+ msgid "(400 is default)"
+-msgstr ""
++msgstr "(400 é padrão)"
+ 
+ #: ui/BoxWindowPreviewOptions.ui.h:3
+-#, fuzzy
+ msgid "Time (ms) before hiding"
+ msgstr "Tempo (ms) antes de ocultar (padrão é 100)"
+ 
+ #: ui/BoxWindowPreviewOptions.ui.h:4
+ msgid "(100 is default)"
+-msgstr ""
++msgstr "(100 é padrão)"
+ 
+ #: ui/BoxWindowPreviewOptions.ui.h:5
+ msgid "Immediate on application icon click"
+@@ -931,7 +910,6 @@ msgid "Use custom opacity for the previe
+ msgstr "Usar opacidade customizada para o plano de fundo da pré-visualização"
+ 
+ #: ui/BoxWindowPreviewOptions.ui.h:35
+-#, fuzzy
+ msgid ""
+ "If disabled, the previews background have the same opacity as the panel."
+ msgstr ""
+@@ -1003,14 +981,13 @@ msgstr "Opacidade do modo de visualizaç
+ msgid ""
+ "All windows except for the peeked one have their opacity set to the same "
+ "value."
+-msgstr ""
++msgstr "Todas as janelas, exceto a que está espiada, têm sua opacidade definida para o mesmo valor"
+ 
+ #: ui/SettingsAbout.ui.h:1
+ msgid "Info"
+-msgstr ""
++msgstr "Informação"
+ 
+ #: ui/SettingsAbout.ui.h:2
+-#, fuzzy
+ msgid "Version"
+ msgstr "versão: "
+ 
+@@ -1023,7 +1000,6 @@ msgid "GitHub"
+ msgstr ""
+ 
+ #: ui/SettingsAbout.ui.h:5
+-#, fuzzy
+ msgid "Export and Import"
+ msgstr "Exportar e importar configurações"
+ 
+@@ -1068,56 +1044,50 @@ msgid "Behaviour when clicking on the ic
+ msgstr "Comportamento ao clicar sobre o ícone de um aplicativo em execução."
+ 
+ #: ui/SettingsAction.ui.h:7
+-#, fuzzy
+ msgid "Toggle windows"
+ msgstr "Todas as janelas"
+ 
+ #: ui/SettingsAction.ui.h:10
+-#, fuzzy
+ msgid "Scroll action"
+ msgstr "Ação do clique"
+ 
+ #: ui/SettingsAction.ui.h:11
+ msgid "Scroll panel action"
+-msgstr ""
++msgstr "Ação do painel de rolagem"
+ 
+ #: ui/SettingsAction.ui.h:12
+ msgid "Behavior when mouse scrolling over the panel."
+-msgstr ""
++msgstr "Comportamento ao rolar o mouse sobre o painel."
+ 
+ #: ui/SettingsAction.ui.h:13
+ msgid "Do nothing"
+-msgstr ""
++msgstr "Não fazer nada"
+ 
+ #: ui/SettingsAction.ui.h:14
+ msgid "Switch workspace"
+-msgstr ""
++msgstr "Alternar espaço de trabalho"
+ 
+ #: ui/SettingsAction.ui.h:15
+-#, fuzzy
+ msgid "Cycle windows"
+ msgstr "Percorrer as janelas"
+ 
+ #: ui/SettingsAction.ui.h:16
+ msgid "Change volume"
+-msgstr ""
++msgstr "Trocar volume"
+ 
+ #: ui/SettingsAction.ui.h:17
+-#, fuzzy
+ msgid "Scroll icon action"
+ msgstr "Ação do clique"
+ 
+ #: ui/SettingsAction.ui.h:18
+-#, fuzzy
+ msgid "Behavior when mouse scrolling over an application icon."
+ msgstr "Comportamento ao clicar sobre o ícone de um aplicativo em execução."
+ 
+ #: ui/SettingsAction.ui.h:19
+ msgid "Same as panel"
+-msgstr ""
++msgstr "mesmo que painel"
+ 
+ #: ui/SettingsAction.ui.h:20
+-#, fuzzy
+ msgid "Hotkey overlay"
+ msgstr "Número de sobreposição"
+ 
+@@ -1134,21 +1104,18 @@ msgstr ""
+ "junto com Shift e Ctrl."
+ 
+ #: ui/SettingsBehavior.ui.h:1
+-#, fuzzy
+ msgid "Applications"
+ msgstr "Mostrar botão de aplicações"
+ 
+ #: ui/SettingsBehavior.ui.h:2
+-#, fuzzy
+ msgid "Show favorite applications"
+ msgstr "Mostrar botão de aplicações"
+ 
+ #: ui/SettingsBehavior.ui.h:3
+ msgid "Show favorite applications on secondary panels"
+-msgstr ""
++msgstr "Mostrar aplicativos favoritos em painéis secundários"
+ 
+ #: ui/SettingsBehavior.ui.h:4
+-#, fuzzy
+ msgid "Show running applications"
+ msgstr "Mostrar botão de aplicações"
+ 
+@@ -1157,65 +1124,60 @@ msgid "Show <i>AppMenu</i> button"
+ msgstr "Mostrar botão <i>Menu de aplicativos</i>"
+ 
+ #: ui/SettingsBehavior.ui.h:6
+-#, fuzzy
+ msgid "Ungroup applications"
+ msgstr "Opções de aplicações não agrupadas"
+ 
+ #: ui/SettingsBehavior.ui.h:7
+ msgid "Show notification counter badge"
+-msgstr ""
++msgstr "Mostrar selo do contador de notificações"
+ 
+ #: ui/SettingsBehavior.ui.h:8
+ msgid "Show window previews on hover"
+ msgstr "Mostrar pré-visualização da janela ao pairar"
+ 
+ #: ui/SettingsBehavior.ui.h:9
+-#, fuzzy
+ msgid "Show tooltip on hover"
+ msgstr "Mostrar pré-visualização da janela ao pairar"
+ 
+ #: ui/SettingsBehavior.ui.h:10
+ msgid "Isolate"
+-msgstr ""
++msgstr "Isolar"
+ 
+ #: ui/SettingsBehavior.ui.h:11
+ msgid "Isolate Workspaces"
+ msgstr "Isolar Espaços de trabalho"
+ 
+ #: ui/SettingsBehavior.ui.h:12
+-#, fuzzy
+ msgid "Isolate monitors"
+ msgstr "Isolar Espaços de trabalho"
+ 
+ #: ui/SettingsBehavior.ui.h:13
+ msgid "Overview"
+-msgstr ""
++msgstr "Visão geral"
+ 
+ #: ui/SettingsBehavior.ui.h:14
+ msgid "Click empty space to close overview"
+-msgstr ""
++msgstr "Clique no espaço vazio para fechar a visão geral"
+ 
+ #: ui/SettingsBehavior.ui.h:15
+ msgid "Disable show overview on startup"
+-msgstr ""
++msgstr "Desabilitar a exibição da visão geral na inicialização"
+ 
+ #: ui/SettingsFineTune.ui.h:1
+ msgid "Font size"
+-msgstr ""
++msgstr "Tamanho da fonte"
+ 
+ #: ui/SettingsFineTune.ui.h:2
+ msgid "Tray Font Size"
+-msgstr ""
++msgstr "Tamanho da fonte da bandeja"
+ 
+ #: ui/SettingsFineTune.ui.h:3
+-#, fuzzy
+ msgid "(0 = theme default)"
+ msgstr ""
+ "Tamanho da fonte da bandeja\n"
+ "(0 = padrão do tema)"
+ 
+ #: ui/SettingsFineTune.ui.h:4
+-#, fuzzy
+ msgid "LeftBox Font Size"
+ msgstr ""
+ "Tamanho da fonte da caixa da esquerda\n"
+@@ -1223,24 +1185,21 @@ msgstr ""
+ 
+ #: ui/SettingsFineTune.ui.h:5
+ msgid "Padding"
+-msgstr ""
++msgstr "Preenchimento"
+ 
+ #: ui/SettingsFineTune.ui.h:6
+-#, fuzzy
+ msgid "Tray Item Padding"
+ msgstr ""
+ "Preenchimento do ítem da bandeja\n"
+ "(-1 = padrão do tema)"
+ 
+ #: ui/SettingsFineTune.ui.h:7
+-#, fuzzy
+ msgid "(-1 = theme default)"
+ msgstr ""
+ "Preenchimento da caixa da esquerda\n"
+ "(-1 = padrão do tema)"
+ 
+ #: ui/SettingsFineTune.ui.h:8
+-#, fuzzy
+ msgid "Status Icon Padding"
+ msgstr ""
+ "Preenchimento do ícone de status\n"
+@@ -1248,10 +1207,9 @@ msgstr ""
+ 
+ #: ui/SettingsFineTune.ui.h:9
+ msgid "LeftBox Padding"
+-msgstr ""
++msgstr "Preenchimento da caixa esquerda"
+ 
+ #: ui/SettingsFineTune.ui.h:10
+-#, fuzzy
+ msgid "Animate"
+ msgstr "Tipo de animação"
+ 
+@@ -1265,28 +1223,25 @@ msgstr "Carregamento animado de novas ja
+ 
+ #: ui/SettingsFineTune.ui.h:13
+ msgid "Gnome functionality"
+-msgstr ""
++msgstr "Funcionalidade do gnome"
+ 
+ #: ui/SettingsFineTune.ui.h:14
+-#, fuzzy
+ msgid "Keep original gnome-shell dash"
+ msgstr "Manter o painel original do gnome-shell (visão principal)"
+ 
+ #: ui/SettingsFineTune.ui.h:15
+ msgid "(overview)"
+-msgstr ""
++msgstr "(visão geral)"
+ 
+ #: ui/SettingsFineTune.ui.h:16
+ msgid "Keep original gnome-shell top panel"
+ msgstr "Manter o painel superior original do gnome-shell"
+ 
+ #: ui/SettingsFineTune.ui.h:17
+-#, fuzzy
+ msgid "Activate panel menu buttons on click only"
+ msgstr "Ativar os botões do painel (p.e. menu de data) somente ao clicar"
+ 
+ #: ui/SettingsFineTune.ui.h:18
+-#, fuzzy
+ msgid "(e.g. date menu)"
+ msgstr "Menu de data"
+ 
+@@ -1295,18 +1250,16 @@ msgid "Force Activities hot corner on pr
+ msgstr "Forçar as ativiadades de canto 'quente' no monitor principal"
+ 
+ #: ui/SettingsFineTune.ui.h:20
+-#, fuzzy
+ msgid "App icon secondary menu"
+ msgstr "Ícone do aplicativo do menu secundário (clique-direito)"
+ 
+ #: ui/SettingsFineTune.ui.h:21
+-#, fuzzy
+ msgid "(right-click menu)"
+ msgstr "Ícone do aplicativo do menu secundário (clique-direito)"
+ 
+ #: ui/SettingsPosition.ui.h:1
+ msgid "Panel"
+-msgstr ""
++msgstr "Painel"
+ 
+ #: ui/SettingsPosition.ui.h:2
+ msgid "Display the main panel on"
+@@ -1326,10 +1279,9 @@ msgstr "Oculta e exbide o painel conform
+ 
+ #: ui/SettingsPosition.ui.h:6
+ msgid "Order and Position on monitors"
+-msgstr ""
++msgstr "Ordem e Posição nos monitores"
+ 
+ #: ui/SettingsPosition.ui.h:7
+-#, fuzzy
+ msgid "Monitor"
+ msgstr "Monitor "
+ 
+@@ -1342,28 +1294,25 @@ msgid "Panel screen position"
+ msgstr "Posição da tela do painel"
+ 
+ #: ui/SettingsPosition.ui.h:14
+-#, fuzzy
+ msgid "Panel thickness"
+ msgstr ""
+-"Espessura do painel\n"
+-"(padrão é 48)"
++"Tamanho do painel\n"
++"(padrão é 45)"
+ 
+ #: ui/SettingsPosition.ui.h:15
+-#, fuzzy
+ msgid "(default is 48)"
+ msgstr ""
+ "Espessura do painel\n"
+-"(padrão é 48)"
++"(padrão é 45)"
+ 
+ #: ui/SettingsPosition.ui.h:17
+-#, fuzzy, no-c-format
++#, no-c-format
+ msgid "Panel length (%)"
+ msgstr ""
+ "Comprimento do painel (%)\n"
+ "(padrão é 100)"
+ 
+ #: ui/SettingsPosition.ui.h:18
+-#, fuzzy
+ msgid "(default is 100)"
+ msgstr ""
+ "Comprimento do painel (%)\n"
+@@ -1374,23 +1323,20 @@ msgid "Anchor"
+ msgstr "Âncora"
+ 
+ #: ui/SettingsPosition.ui.h:23
+-#, fuzzy
+ msgid "Taskbar Display"
+ msgstr "Barra de tarefas"
+ 
+ #: ui/SettingsStyle.ui.h:1
+ msgid "AppIcon style"
+-msgstr ""
++msgstr "Estilo do ícone"
+ 
+ #: ui/SettingsStyle.ui.h:2
+-#, fuzzy
+ msgid "App Icon Margin"
+ msgstr ""
+ "Margem do ícone do Aplicativo\n"
+ "(O padrão é 8)"
+ 
+ #: ui/SettingsStyle.ui.h:3
+-#, fuzzy
+ msgid "(default is 8)"
+ msgstr ""
+ "Margem do ícone do Aplicativo\n"
+@@ -1398,22 +1344,17 @@ msgstr ""
+ 
+ #: ui/SettingsStyle.ui.h:4
+ msgid "App Icon Padding"
+-msgstr ""
++msgstr "Espaçamento interno do ícone do aplicativo"
+ 
+ #: ui/SettingsStyle.ui.h:5
+-#, fuzzy
+ msgid "(default is 4)"
+-msgstr ""
+-"Espessura do painel\n"
+-"(padrão é 48)"
++msgstr "(padrão é 48)"
+ 
+ #: ui/SettingsStyle.ui.h:6
+-#, fuzzy
+ msgid "Animate hovering app icons"
+ msgstr "Animar alternações dos aplicativos"
+ 
+ #: ui/SettingsStyle.ui.h:7
+-#, fuzzy
+ msgid "Running indicator"
+ msgstr "Posição do indicador de execução"
+ 
+@@ -1458,45 +1399,43 @@ msgid "Running indicator style (Unfocuse
+ msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
+ 
+ #: ui/SettingsStyle.ui.h:22
+-#, fuzzy
+ msgid "Panel style"
+ msgstr "Ocultação inteligente do painel"
+ 
+ #: ui/SettingsStyle.ui.h:23
+ msgid "Override panel theme background color"
+-msgstr ""
++msgstr "Sobreescrever a cor de fundo do tema do painel"
+ 
+ #: ui/SettingsStyle.ui.h:24
+ msgid "Override panel theme background opacity"
+-msgstr ""
++msgstr "Sobrescrever a opacidade do fundo do tema do painel"
+ 
+ #: ui/SettingsStyle.ui.h:26
+ #, no-c-format
+ msgid "Panel background opacity (%)"
+-msgstr ""
++msgstr "Opacidade (%) do fundo do painel"
+ 
+ #: ui/SettingsStyle.ui.h:28
+-#, fuzzy
+ msgid "Dynamic background opacity"
+ msgstr "Opções de opacidade dinâmica"
+ 
+ #: ui/SettingsStyle.ui.h:29
+ msgid "Change opacity when a window gets close to the panel"
+-msgstr ""
++msgstr "Alterar a opacidade quando uma janela se aproximar do painel"
+ 
+ #: ui/SettingsStyle.ui.h:30
+ msgid "Override panel theme gradient"
+-msgstr ""
++msgstr "Sobrescrever o gradiente do tema do painel"
+ 
+ #: ui/SettingsStyle.ui.h:32
+ #, no-c-format
+ msgid "Gradient top color and opacity (%)"
+-msgstr ""
++msgstr "Cor e opacidade (%) do gradiente superior"
+ 
+ #: ui/SettingsStyle.ui.h:34
+ #, no-c-format
+ msgid "Gradient bottom color and opacity (%)"
+-msgstr ""
++msgstr "Cor e opacidade (%) do gradiente inferior"
+ 
+ #~ msgid "New Window"
+ #~ msgstr "Nova janela"
