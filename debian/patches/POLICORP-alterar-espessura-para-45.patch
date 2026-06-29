@@ -1,0 +1,13 @@
+Index: gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+===================================================================
+--- gnome-shell-extension-dash-to-panel.orig/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
++++ gnome-shell-extension-dash-to-panel/schemas/org.gnome.shell.extensions.dash-to-panel.gschema.xml
+@@ -106,7 +106,7 @@
+       <description>Sizes of panels, in pixels.</description>
+     </key>
+     <key type="i" name="panel-size">
+-      <default>48</default>
++      <default>45</default>
+       <summary>Panel size (Deprecated)</summary>
+       <description>Set the size of the panel.</description>
+     </key>
