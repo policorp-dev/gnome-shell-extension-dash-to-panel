@@ -4,10 +4,17 @@
 	dh $@
 
 override_dh_install:
+	sed -i "s/9999/`dpkg-parsechangelog --show-field Version|cut -f1 -d-`/g" metadata.json
 	dh_install
+
+execute_after_dh_install:
 	rm -f debian/gnome-shell-extension-dash-to-panel/usr/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com/COPYING
 	rm -f debian/gnome-shell-extension-dash-to-panel/usr/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com/README.md
 
-override_dh_clean:
+execute_before_dh_clean:
 	rm -f */*.mo
-	dh_clean
+
+override_dh_gencontrol:
+	dh_gencontrol -- \
+		-Vgnome:MinimumVersion=$(shell python3 -c "import json; print(min(int(x) for x in json.load(open('metadata.json', 'rt'))['shell-version']))") \
+		-Vgnome:MaximumVersion=$(shell python3 -c "import json; print(1+max(int(x) for x in json.load(open('metadata.json', 'rt'))['shell-version']))")

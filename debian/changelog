@@ -1,26 +1,32 @@
-gnome-shell-extension-dash-to-panel (68.Policorp-5) stable; urgency=medium
+gnome-shell-extension-dash-to-panel (73-1) unstable; urgency=medium
 
-  * Alterado margem icon
+  * New upstream release 
+  * Hot patch metadata version during build (Closes: #1101943)
 
- -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 14 Aug 2025 18:21:32 +0000
+ -- Jonathan Carter <jcc@debian.org>  Fri, 20 Mar 2026 15:37:26 +0200
 
-gnome-shell-extension-dash-to-panel (68.Policorp-4) stable; urgency=medium
+gnome-shell-extension-dash-to-panel (72-1) unstable; urgency=medium
 
-  * Added translation
+  * New upstream release
 
- -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 05 Jun 2025 09:45:30 -0300
+ -- Jonathan Carter <jcc@debian.org>  Thu, 23 Oct 2025 11:29:36 +0200
 
-gnome-shell-extension-dash-to-panel (68.Policorp-3) stable; urgency=medium
+gnome-shell-extension-dash-to-panel (70-1) unstable; urgency=medium
 
-  * alterado espessura de 48 para 45
+  * New upstream release
+  * Update standards version to 4.7.2
+  * Remove unnecessary Rules-Requires-Root
 
- -- Edson Juliano Drosdeck <edson@policorp.com.br>  Wed, 19 Mar 2025 15:05:39 -0300
+ -- Jonathan Carter <jcc@debian.org>  Tue, 16 Sep 2025 12:42:05 +0200
 
-gnome-shell-extension-dash-to-panel (68.Policorp-2) stable; urgency=medium
+gnome-shell-extension-dash-to-panel (68-2) unstable; urgency=medium
 
-  * Updated in Policorp
+  * Team upload
+  * Automatically update supported GNOME Shell versions by parsing metadata.json
+  * Demote Depends: gnome-shell-extension-prefs to Recommends
+    and add alternative gnome-shell-extension-manager
 
- -- Edson Juliano Drosdeck <edson@policorp.com.br>  Tue, 18 Mar 2025 19:23:55 +0000
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 10 Apr 2025 18:53:12 -0400
 
 gnome-shell-extension-dash-to-panel (68-1) unstable; urgency=medium
 
