@@ -379,7 +379,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Show running applications"
  msgstr "Mostrar botão de aplicações"
  
-@@ -1157,65 +1124,60 @@ msgid "Show <i>AppMenu</i> button"
+@@ -1157,65 +1124,63 @@ msgid "Show <i>AppMenu</i> button"
  msgstr "Mostrar botão <i>Menu de aplicativos</i>"
  
  #: ui/SettingsBehavior.ui.h:6
@@ -405,6 +405,9 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Isolate"
 -msgstr ""
 +msgstr "Isolar"
++
++msgid "Hover"
++msgstr "Passar o mouse sobre"
  
  #: ui/SettingsBehavior.ui.h:11
  msgid "Isolate Workspaces"
@@ -452,7 +455,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "LeftBox Font Size"
  msgstr ""
  "Tamanho da fonte da caixa da esquerda\n"
-@@ -1223,24 +1185,21 @@ msgstr ""
+@@ -1223,24 +1188,21 @@ msgstr ""
  
  #: ui/SettingsFineTune.ui.h:5
  msgid "Padding"
@@ -478,7 +481,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Status Icon Padding"
  msgstr ""
  "Preenchimento do ícone de status\n"
-@@ -1248,10 +1207,9 @@ msgstr ""
+@@ -1248,10 +1210,9 @@ msgstr ""
  
  #: ui/SettingsFineTune.ui.h:9
  msgid "LeftBox Padding"
@@ -490,7 +493,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Animate"
  msgstr "Tipo de animação"
  
-@@ -1265,28 +1223,25 @@ msgstr "Carregamento animado de novas ja
+@@ -1265,28 +1226,25 @@ msgstr "Carregamento animado de novas ja
  
  #: ui/SettingsFineTune.ui.h:13
  msgid "Gnome functionality"
@@ -521,7 +524,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(e.g. date menu)"
  msgstr "Menu de data"
  
-@@ -1295,18 +1250,16 @@ msgid "Force Activities hot corner on pr
+@@ -1295,18 +1253,16 @@ msgid "Force Activities hot corner on pr
  msgstr "Forçar as ativiadades de canto 'quente' no monitor principal"
  
  #: ui/SettingsFineTune.ui.h:20
@@ -541,7 +544,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  
  #: ui/SettingsPosition.ui.h:2
  msgid "Display the main panel on"
-@@ -1326,10 +1279,9 @@ msgstr "Oculta e exbide o painel conform
+@@ -1326,10 +1282,9 @@ msgstr "Oculta e exbide o painel conform
  
  #: ui/SettingsPosition.ui.h:6
  msgid "Order and Position on monitors"
@@ -553,7 +556,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Monitor"
  msgstr "Monitor "
  
-@@ -1342,28 +1294,25 @@ msgid "Panel screen position"
+@@ -1342,28 +1297,25 @@ msgid "Panel screen position"
  msgstr "Posição da tela do painel"
  
  #: ui/SettingsPosition.ui.h:14
@@ -586,7 +589,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 100)"
  msgstr ""
  "Comprimento do painel (%)\n"
-@@ -1374,23 +1323,24 @@ msgid "Anchor"
+@@ -1374,23 +1326,24 @@ msgid "Anchor"
  msgstr "Âncora"
  
  #: ui/SettingsPosition.ui.h:23
@@ -615,7 +618,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "(default is 8)"
  msgstr ""
  "Margem do ícone do Aplicativo\n"
-@@ -1398,22 +1348,17 @@ msgstr ""
+@@ -1398,22 +1351,17 @@ msgstr ""
  
  #: ui/SettingsStyle.ui.h:4
  msgid "App Icon Padding"
@@ -640,7 +643,7 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
  msgid "Running indicator"
  msgstr "Posição do indicador de execução"
  
-@@ -1458,80 +1403,82 @@ msgid "Running indicator style (Unfocuse
+@@ -1458,80 +1406,88 @@ msgid "Running indicator style (Unfocuse
  msgstr "Estilo do indicador de execução (Aplicativos fora de foco)"
  
  #: ui/SettingsStyle.ui.h:22
@@ -756,3 +759,9 @@ Index: gnome-shell-extension-dash-to-panel/po/pt_BR.po
 -#~ msgstr "Sobre"
 +msgid "About"
 +msgstr "Sobre"
++
++msgid "Position"
++msgstr "Posição"
++
++msgid "Panel monitor position"
++msgstr "Posição do monitor do painel"
