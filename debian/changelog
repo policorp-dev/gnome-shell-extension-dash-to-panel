@@ -1,3 +1,9 @@
+gnome-shell-extension-dash-to-panel (74.Policorp-1) unstable; urgency=medium
+
+  * New upstream release 74 (Policorp)
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 26 Nov 2026 17:45:00 +0000
+
 gnome-shell-extension-dash-to-panel (74-1) unstable; urgency=medium
 
   * New upstream release
